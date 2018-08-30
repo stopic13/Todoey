@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item{
+class Item: Codable { //item can encode itself, only works if all properties are standard data types
     var title : String = ""
     var done: Bool = false
 }
